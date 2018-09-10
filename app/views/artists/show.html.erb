@@ -1,5 +1,3 @@
 <h1><%= @artist.name %></h1>
 
-<h3>Songs: <%= link_to @artist.songs.name, song_path(@song.name) if @artist.song %></h3>
-
-<p><%= @song.description %></p>
+<h3>Songs: <%= link_to @artist.songs.name, category_path(@post.category) if @post.category %></h3>
